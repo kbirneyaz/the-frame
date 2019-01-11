@@ -3,8 +3,15 @@
   <head>
     <title>Navebar</title>
   </head>
+  <style type=css/text>
+    header{
+      min-width:100%;
+      min-height:200px;
+    }
+  </style>
   <body>
   <header>
+      
   </header>
     
   </body>
