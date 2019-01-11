@@ -29,6 +29,18 @@
       color: white;
       cursor: pointer;
     }
+    .border::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: white;
+    transition: width .3s;
+    margin-top: 5px;
+}
+    .border:hover::after {
+    width: 100%;
+}
   </style>
   <body>
   <header>
